@@ -1,2 +1,2 @@
-# Students-career-website
-A career website for studnets
+# jovian-careers-website
+A careers website for Jovian
