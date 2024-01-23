@@ -13,7 +13,7 @@ JOBS = [
     {'title': 'Data Analyst', 'location': 'Wroclaw, Poland', 'salary': 'PLN 35,000'},
     {'title': 'Data Scientist', 'location': 'Poznan, Poland', 'salary': 'PLN 27,000'},
     {'title': 'Frontend Engineer', 'location': 'Remote'},
-    {'title': 'Backend Engineer', 'location': 'San Francisco, USA', 'salary': '$150,000'}
+    {'title': 'Backend Engineer', 'location': 'Warsaw, Poland', 'salary': 'PLN50,000'}
 ]
 
 @app.route("/")
