@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+/* Design of the index.html */
+
+.left-side{
+    /* background-color: red; */
+    width: 40%;
+    background-color: rgb(16, 94, 161);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.right-side {
+    width: 65%;
+}
+.right-side-content {
+    width: 70%;
+}
+img.logo{
+    width: 13rem;
+    transition: all 0.6s;
+    height: 13rem;
+    cursor:help;
+}
+img.logo:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.homeBtns {
+    margin-top: 4rem;
+}
+.homePageBtn a{
+    padding: 0.7rem 3rem;
+    height: 1.5rem;
+    background-color: rgb(16, 94, 161);
+    border-radius: 1.6rem;
+    color: white;
+    text-decoration: none;
+}
