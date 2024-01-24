@@ -4,66 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jobs for Students</title>
-    <style>
-        body {
-            text-align: center;
-            font-family: 'Arial', sans-serif;
-        }
-
-        #image-container {
-            margin-top: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        #image-container img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        h1 {
-            font-size: 32px;
-            color: #3498db;
-        }
-
-        #description {
-            font-size: 18px;
-            margin-bottom: 20px;
-        }
-
-        a {
-            display: inline-block;
-            padding: 10px 20px;
-            margin: 20px 10px;
-            background-color: #3498db;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-        }
-
-        a:hover {
-            background-color: #2980b9;
-        }
-
-        .register-button {
-            background-color: #2ecc71;
-        }
-
-        .register-button:hover {
-            background-color: #27ae60;
-        }
-    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/style.css">
 </head>
 <body>
-    <div id="image-container">
-        <img src="{{ url_for('static', filename='image.jpg') }}" alt="Students Working Together">
+    <div class=" w-100 h-100 d-flex">
+        <div id="image-container " class="left-side d-flex align-items-center justify-content-center h-55" >
+            <img class="logo rounded-circle" src="{{ url_for('static', filename='logo.png') }}" alt="Students Working Together">
+        </div>
+       <div class="right-side d-flex align-items-center justify-content-center h-100">
+        <div class="right-side-content h-50  px-5">
+            <div class="text-center pb-5">
+                <h1>Welcome to Jobs for Students</h1>
+            </div>
+            <div class="text-center">
+                <p id="description">
+                    Discover exciting job opportunities tailored for students.
+                    Find internships, part-time positions, and more to kickstart
+                    your career journey.
+                </p>
+            </div>
+            <div class="homeBtns d-flex justify-content-around ">
+                <div class="homePageBtn ">
+                    <a class="" href="/search">See Open Positions</a>
+                </div>
+                <div class="homePageBtn">
+                    <a class="" href="/register" class="register-button">Create Account</a>
+                </div>
+            </div>
+        </div>
+       </div>
     </div>
-    <h1>Welcome to Jobs for Students</h1>
-    <p id="description">Discover exciting job opportunities tailored for students. Find internships, part-time positions, and more to kickstart your career journey.</p>
-    <a href="/search">See Open Positions</a>
-    <a href="/register" class="register-button">Create Account</a>
 </body>
 </html>
