@@ -13,7 +13,7 @@ body{
 .left-side{
     /* background-color: red; */
     width: 40%;
-    background-color: rgb(16, 94, 161);
+    background-color: #3498db;
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -39,7 +39,7 @@ img.logo:hover{
 .homePageBtn a{
     padding: 0.7rem 3rem;
     height: 1.5rem;
-    background-color: rgb(16, 94, 161);
+    background-color: #3498db;
     border-radius: 1.6rem;
     color: white;
     text-decoration: none;
