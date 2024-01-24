@@ -44,3 +44,40 @@ img.logo:hover{
     color: white;
     text-decoration: none;
 }
+
+/* Design of the job_list page */
+
+.top-header-{
+    height: 3rem;
+}
+.top-header-logo img{
+    width: 65px;
+    height: 65px;
+    border: 2px solid #3498db;
+}
+
+/* Design of the register page */
+.register{
+    padding: 3rem;
+}
+.register-container {
+    width: 40%;
+    height: 70%;
+    padding: 2rem 3rem;
+    background-color: #ecf0f1;
+}
+.register-container input{
+    border: 1px solid rgba(0, 0, 0, 0.206);
+}
+.register-container button{
+    height: 1.5rem;
+    background-color: #3498db;
+    border-radius: 1.6rem;
+    color: white;
+    border: none;
+}
+.register-container input,.register-container button{
+    height: 2.5rem;
+    width: 80%;
+    
+}
