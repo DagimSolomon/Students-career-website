@@ -17,9 +17,11 @@
             </div>
             <div>
             <h3 class="text-center">Login</h1>
-                {% if error %}
-        <p class="test-center text-danger" >{{ error }}</p>
-    {% endif %}
+          <div class="w-100 text-center">
+            {% if error %}
+            <p class=" text-danger" >{{ error }}</p>
+        {% endif %}
+          </div>
 
     <form class='d-flex justify-content-center align-items-center w-100 flex-column pt-3' method="post" action="/login">
         <div class="pb-3 d-flex justify-content-center w-75">
@@ -33,6 +35,9 @@
             <button class="rounded" type="submit">Log in</button>
         </div>
     </form>
+        </div>
+        <div class="w-100 text-center pt-3" >
+            <p class="test-center " >Don't have an account? <span><a class=" text-center text-primary text-decoration-none" href="/register" >Sign up</a></span></p>
         </div>
     </div>
 </body>
